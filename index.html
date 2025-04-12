@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Explainable AI - Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-color: #0f172a;
+      --text-color: #e2e8f0;
+      --subtext-color: #94a3b8;
+      --btn-bg: #2563eb;
+      --btn-hover: #1d4ed8;
+      --card-bg: #1e293b;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+    }
+
+    header {
+      background-color: #020617;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 3rem auto;
+      padding: 2rem;
+      background: var(--card-bg);
+      border-radius: 16px;
+      box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+      text-align: center;
+    }
+
+    .container h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .container p {
+      font-size: 1.1rem;
+      color: var(--subtext-color);
+      line-height: 1.6;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 2rem;
+      padding: 0.9rem 2.2rem;
+      font-size: 1rem;
+      border-radius: 10px;
+      background-color: var(--btn-bg);
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: var(--btn-hover);
+    }
+
+    footer {
+      margin-top: 4rem;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: var(--subtext-color);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Explainable AI for Decision-Making</h1>
+  </header>
+
+  <div class="container">
+    <h2>Transparency & Trust in AI</h2>
+    <p>
+      Our project brings clarity to AI predictions in critical sectors like <strong>healthcare</strong>, <strong>legal tech</strong>, and <strong>finance</strong>. 
+      By using interpretability tools such as SHAP and LIME, we help professionals understand the 'why' behind AI decisions.
+    </p>
+    <a href="prediction.html" class="btn">Try the Demo</a>
+  </div>
+
+  <footer>
+    &copy; 2025 Hackathon Team | Built with 💡 and Python
+  </footer>
+
+</body>
+</html>
