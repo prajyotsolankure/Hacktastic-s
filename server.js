@@ -9,8 +9,8 @@ const PORT = 5000;
 app.use(cors());
 app.use(express.json());
 
-const HF_TOKEN = "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";
-const MODEL_URL = "https://api-inference.huggingface.co/models/cardiffnlp/twitter-roberta-base-sentiment";
+const HF_TOKEN = "";
+const MODEL_URL = "";
 
 app.post("/predict", async (req, res) => {
   const { statement } = req.body;
